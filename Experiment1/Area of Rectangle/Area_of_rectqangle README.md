@@ -18,10 +18,9 @@ Write a Python program to calculate the area of a rectangle given its length and
 ---
 
 ## Execution
-<p align="center">
   <p align="center">
   <img src=" Area_of_rectangle exe" width="900">
 </p>
-</p>
+
 
 
