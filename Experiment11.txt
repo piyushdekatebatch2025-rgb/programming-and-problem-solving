@@ -1,0 +1,28 @@
+Q11.1.1 Write a Python program that reads an integer, calculates the sum of its digits, and prints the result.
+num = int(input("Enter a number: "))
+sum_digits = 0
+temp = abs(num)
+while temp > 0:
+    sum_digits += temp % 10
+    temp //= 10
+print("Sum of digits:",   sum_digits  )
+
+Q11.1.2 Write a recursive function sum_of_digits_recursive(n) that calculates the sum of the digits of a given non-negative integer 
+n
+def sum_of_digits_recursive(n):
+	if n ==0:
+		return 0
+	else:
+		return n % 10 +  sum_of_digits_recursive( n // 10  )
+
+
+
+# Write your code here
+number = int(input())
+result = sum_of_digits_recursive(number)	
+
+print(sum_of_digits_recursive(number))
+
+	
+
+
