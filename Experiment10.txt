@@ -1,0 +1,19 @@
+Q 10.1.1 Write a Python program to remove all punctuation marks from a given string and print the resulting string.
+Sol 10.1.1 s = input()
+result = ""
+
+for ch in s:
+    if ch.isalnum() or ch == " ":
+        result += ch
+
+print(result)
+
+Q 10.1.2 Write a Python program that prints the reverse of a given input string. The program uses a reverse_string() function that takes a string as input and returns its reversed string.
+Sol 10.1.2 def reverse_string(s):
+	return s[::-1]
+
+
+user_input = input("Enter a string: ")
+result = reverse_string(user_input)
+print(f"Original String: {user_input}")
+print(f"Reversed String: {result}")
