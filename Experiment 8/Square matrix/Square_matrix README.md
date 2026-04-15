@@ -38,5 +38,5 @@ Matrix.drawio.png)
 
 ## Execution
 <p align="center">
-  <img src="square matrix.png" width="900">
+  <img src="Square matrix.png" width="900">
 </p>
