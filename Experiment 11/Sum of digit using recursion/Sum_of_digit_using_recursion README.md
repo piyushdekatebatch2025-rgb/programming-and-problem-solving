@@ -30,7 +30,7 @@ Step 8: Stop
 
 ## Flowchart
 ![Flowchart](
-RC (1).jpeg)
+RC(1).jpeg)
 
 ---
 
